@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 250px;
+  height: 300px;
+  padding-top: 30px;
+  border-radius: 15px;
+  background-color: rgb(221, 221, 221);
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 25px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.status {
+  font-size: 30px;
+}
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}
