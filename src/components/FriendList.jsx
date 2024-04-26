@@ -20,6 +20,5 @@ const FriendList = ({ friends }) => {
     )
 }
 
-
 export default FriendList;
 
