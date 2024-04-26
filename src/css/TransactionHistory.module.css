@@ -1,24 +1,23 @@
-table {
+.table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 25px;
 }
 
-th,
-td {
+.item {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
 }
 
-th {
+.grey {
   background-color: #f2f2f2;
 }
 
-tr:nth-child(even) {
+.line:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-tr:hover {
+.line:hover {
   background-color: #ddd;
 }
